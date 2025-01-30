@@ -1,7 +1,7 @@
 Weight = int(input(""))
 water_lvl = ("L","M","H")
 
-if (0 < Weight <= 2000):
+if (0 < Weight <= 2000): # washing machine logic where it accepts weight under 7000g and cant exceed because it will result in Invalid input
     timer = 25
     print("",Weight,water_lvl[0])
 elif (2000 < Weight <= 4000):
